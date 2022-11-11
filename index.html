@@ -17,13 +17,13 @@
             <nav class="nav">
                 <ul class="menu">
                     <li class="menu-item">
-                        <a href="#" class="menu-link">Що нового</a>
+                        <a href="#whatsnew" class="menu-link">Що нового</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" class="menu-link">Колір</a>
+                        <a href="#choosecolor" class="menu-link">Колір</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" class="menu-link">Замовити</a>
+                        <a href="#order" class="menu-link">Замовити</a>
                     </li>
                 </ul>
                 <a class="logo">
@@ -38,28 +38,35 @@
             <div class="container">
                 <h1 class="title">IPHONE 14 PRO</h1>
                 <img class="headline-img" src="img/iphone.png" alt="IPHONE 14 PRO MAX">
-                <a class="headline-btn" href="#">Вибрати</a>
+                <a class="headline-btn" href="#choosecolor">Вибрати</a>
             </div>
         </section>
-        <section class="new">
+        <section id="whatsnew" class="new">
             <div class="container">
                 <h2 class="new-title">Що нового</h2>
                 <div class="new-info">
                     <div class="new-text">
-                        <p>Всі моделі оснащені однокристальною системою A16 Bionic, 48-мегапіксельною основною камерою та екранами ProMotion із захистом Ceramic Shield та частотним діапазоном 1 – 120 Гц, а також прискореною пам'яттю LPDDR5. Дизайн серії оновлено, на фронтальній панелі смартфонів два вирізи.
+                        <p>Всі моделі оснащені однокристальною системою A16 Bionic, 48-мегапіксельною основною камерою
+                            та екранами ProMotion із захистом Ceramic Shield та частотним діапазоном 1 – 120 Гц, а також
+                            прискореною пам'яттю LPDDR5. Дизайн серії оновлено, на фронтальній панелі смартфонів два
+                            вирізи.
                         </p>
-                        <p>Всі iPhone 14 в США будуть продаватися без лотка для SIM-карток: виробник заявляє, що покращена технологія eSIM дозволить перенести старі електронні сім-картки на нові смартфони.
+                        <p>Всі iPhone 14 в США будуть продаватися без лотка для SIM-карток: виробник заявляє, що
+                            покращена технологія eSIM дозволить перенести старі електронні сім-картки на нові смартфони.
                         </p>
-                        <p>Оновлено фронтальну камеру (вона оснащена автофокусом і швидше розпізнає користувача в умовах недостатнього освітлення) та сенсор основної камери.
+                        <p>Оновлено фронтальну камеру (вона оснащена автофокусом і швидше розпізнає користувача в умовах
+                            недостатнього освітлення) та сенсор основної камери.
                         </p>
-                        <p>iPhone 14 Pro вийшов у новому дизайні - без фірмової чубчика. Також у асортименті з'явився новий колір. У смартфоні, на відміну від «звичайних» 14-х айфонів, встановлений процесор A16 Bionic, який може за секунду здійснювати 4 трлн операцій із фото.
+                        <p>iPhone 14 Pro вийшов у новому дизайні - без фірмової чубчика. Також у асортименті з'явився
+                            новий колір. У смартфоні, на відміну від «звичайних» 14-х айфонів, встановлений процесор A16
+                            Bionic, який може за секунду здійснювати 4 трлн операцій із фото.
                         </p>
                     </div>
                     <img class="images-new" src="img/iphone-news.jpg" alt="iphone">
                 </div>
             </div>
         </section>
-        <section class="color">
+        <section id="choosecolor" class="color">
             <div class="container">
                 <h2 class="color-title">Виберіть свій колір
                 </h2>
@@ -87,20 +94,31 @@
                 </ul>
             </div>
         </section>
-        <section class="contacts">
+        <section id="order" class="contacts">
             <div class="container">
                 <div class="contacts-inner">
-                    <form class="contacts-form" action="#">
+                    <form class="contacts-form" action="https://www.freecodecamp.com/email-submit" method="post">
                         <h2 class="contacts-title">ХОЧЕШ IPHONE 14 PRO?</h2>
                         <input class="contacts-input" type="text" placeholder="Ваше ім'я"></input>
                         <input class="contacts-input" type="tel" placeholder="Номер телефону"></input>
                         <p>Найближчим часом менеджер зв'яжеться з вами</p>
                         <button type="submit">Замовити</button>
                     </form>
-                    <img src="img/contact.jpg" alt="iPhone">
+                    <img class="contacts-img" src="img/contact.jpg" alt="iPhone">
                 </div>
             </div>
         </section>
     </main>
-</body>   
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <a class="footer-link" href="#">Політика конфіденційності</a>
+                <a class="logo">
+                    <img class="logo-img" src="img/Logo.svg" alt="логотип сайту">
+                </a>
+                <a href="tel:380504565656" class="phone">+38 050-456-56-56</a>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
